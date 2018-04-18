@@ -80,7 +80,13 @@
             "main": "aurelia-testing",
             "env": "dev"
           },
-          "text"
+          "text",
+          {
+            "name": "aurelia-web-components",
+            "main": "aurelia-web-components",
+            "path": "../node_modules/aurelia-web-components/dist/amd",
+            "resources": []
+          }
         ]
       }
     ],
